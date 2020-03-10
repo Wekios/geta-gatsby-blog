@@ -8,6 +8,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import author from './documents/author'
 import category from './documents/category'
 import post from './documents/post'
+import quote from './documents/quote'
 import siteSettings from './documents/siteSettings'
 
 // Object types
@@ -34,6 +35,7 @@ export default createSchema({
     authorReference,
     bodyPortableText,
     bioPortableText,
+    quote,
     excerptPortableText
 
     // When added to this list, object types can be used as
